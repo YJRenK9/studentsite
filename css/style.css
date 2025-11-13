@@ -154,7 +154,8 @@ li {
     /* wrap enables the divs to match the layout of portrait and landscape resolutions */
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    /* comment align-items if you want every div to be at the same x position? */
+    /* align-items: center; */
 }
 
 .projects h3 {
